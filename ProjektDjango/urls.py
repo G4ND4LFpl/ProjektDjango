@@ -6,13 +6,18 @@ from datetime import datetime
 from django.urls import path
 from django.contrib import admin
 from django.contrib.auth.views import LoginView, LogoutView
-from app import forms, views
+from app import forms, views as appview
+from warhammer import views
 
 
 urlpatterns = [
-    path('', views.home, name='home'),
-    path('contact/', views.contact, name='contact'),
-    path('about/', views.about, name='about'),
+    path('', views.index, name="index"),
+
+    # Default
+    path('home/', appview.home, name='home'),
+    path('contact/', appview.contact, name='contact'),
+    path('about/', appview.about, name='about'),
+
     path('login/',
          LoginView.as_view
          (
