@@ -5,9 +5,11 @@ function onload()
     for (var i = 0; i < parts.length; i++) 
     {
         var temp = parts[i].split("=");
-        $_GET[decodeURIComponent(temp[0])] = decodeURIComponent(temp[1]);
+
+        if (temp[0] != "") $_GET[decodeURIComponent(temp[0])] = decodeURIComponent(temp[1]);
+        else $_GET["selector"] = "en";
     }
-    
+
     let selector = document.getElementById("lang_selector");
     selector.value = $_GET["selector"];
     selector.style = "display: inline-block;"

@@ -52,5 +52,10 @@
                 "text":["These are the largest ork clan, and the first to be encountered by mankind. The Waaagh of this clan have often caused serious problems to humans."]
             }
         ]
+    },
+    "advertisement":{
+        "header":"A coworking office for you!", 
+        "content":"An unusual office environment in the center of Warsaw - nearly 500m2 of furnished office space for rent for anyone who needs a place to work and meet in a flexible, creative and professional environment.",
+        "ending":"Choose services for yourself!"
     }
 }

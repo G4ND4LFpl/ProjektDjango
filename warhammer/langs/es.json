@@ -26,31 +26,36 @@
     "img_source":"fuente",
     "article1":{
         "title":"Marines espaciales",
-        "text":["This is a military formation established by the emperor of humanity in the 6th millennium AD. They are genetically modified super soldiers armed with powerful blasters and equipped with powerful power armor. They were created as a special strike force and quickly became a symbol of the emperor's power ."],
+        "text":["Esta es una formación militar establecida por el emperador de la humanidad en el sexto milenio d.C. Son supersoldados genéticamente modificados armados con poderosos blásters y equipados con poderosas servoarmaduras. Fueron creados como una fuerza de ataque especial y rápidamente se convirtieron en un símbolo del poder del emperador."],
         "sections":[{
-            "title":"Uprising",
+            "title":"Origen",
             "text":[
-                "Originally, the Emperor founded 9 orders of space marines, headed by the Fathers of the Orders. They were supermen, a true genetic miracle achieved by scientists under the strict control of the Emperor, and the knowledge of how they were created had already been lost in the war of the heavens almost two thousand years ago.",
-                "The fathers of the orders, unlike ordinary marines, could use psionic powers in addition to even greater strength, stamina and dexterity. Their minds were also enhanced, allowing them to analyze situations many times faster than normal people.",
-                "Each of the 9 orders was slightly different, but all served the emperor in the great crusade of humanity."
+                "Originalmente, el Emperador fundó 9 órdenes de marines espaciales, encabezadas por los Padres de las Órdenes. Eran superhombres, un verdadero milagro genético logrado por científicos bajo el estricto control del Emperador, y el conocimiento de cómo fueron creados ya se había perdido en la guerra de los cielos hace casi dos mil a?os.",
+                "Los padres de las órdenes, a diferencia de los marines ordinarios, podían usar poderes psiónicos además de una fuerza, resistencia y destreza aún mayores. Sus mentes también se mejoraron, permitiéndoles analizar situaciones muchas veces más rápido que las personas normales.",
+                "Cada una de las 9 órdenes era ligeramente diferente, pero todas sirvieron al emperador en la gran cruzada de la humanidad."
             ]
         }]
     },
     "article2":{
         "title":"Orkos",
         "text":[
-            "Orcs are an alien race that has always been the bane of mankind. Despite their relatively weak technology, this warlike faction, thanks to their numbers and total dedication to one goal - war, is a dangerous force and united would be the strongest faction in this part of the galaxy.",
-            "For most orcs, the sole purpose of existence is war, and so this faction wages countless wars with virtually every faction in this part of the Milky Way. However, the enemy that orcs fight most often is other orcs."
+            "Los orkos son una raza alienígena que siempre ha sido la ruina de la humanidad. A pesar de su tecnología relativamente débil, esta facción guerrera, gracias a su número y dedicación total a un objetivo: la guerra, es una fuerza peligrosa y unida sería la facción más fuerte en esta parte de la galaxia.",
+            "Para la mayoría de los orkos, el único propósito de la existencia es la guerra, por lo que esta facción libra innumerables guerras con prácticamente todas las facciones en esta parte de la Vía Láctea. Sin embargo, el enemigo contra el que luchan los orkos con mayor frecuencia son otros orkos."
         ],
         "sections":[
             {
-            "title":"Orc Clans",
-            "text":["Orcs are divided into 12 clans, which usually fight each other. However, the clans themselves are not united and consist of hundreds of orc groups called packs. Each group is led by a local chieftain, the strongest orc. subjugated other packs and united much of their clan are called Waaagh."]
+            "title":"Clanes orkos",
+            "text":["Los orcos se dividen en 12 clanes, que normalmente luchan entre sí. Sin embargo, los clanes en sí no están unidos y consisten en cientos de grupos de orkos llamados manadas. Cada grupo está dirigido por un jefe local, el orko más fuerte. otras manadas subyugadas y unidas gran parte de su clan se llaman Waaagh."]
             },
             {
-                "title":"War Ax Clan",
-                "text":["These are the largest orc clan, and the first to be encountered by mankind. The Waaagh of this clan have often caused serious problems to humans."]
+                "title":"Clan del hacha de guerra",
+                "text":["Estos son el clan orko más grande y el primero en ser encontrado por la humanidad. Los Waaagh de este clan a menudo han causado serios problemas a los humanos."]
             }
         ]
+    },
+    "advertisement":{
+        "header":"?Una oficina de coworking para ti!", 
+        "content":"Un entorno de oficina inusual en el centro de Varsovia: casi 500m2 de espacio de oficina amueblado en alquiler para cualquier persona que necesite un lugar para trabajar y reunirse en un entorno flexible, creativo y profesional.",
+        "ending":"?Elige los servicios por ti mismo!"
     }
 }

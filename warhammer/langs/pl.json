@@ -52,5 +52,10 @@
                 "text":["Jest to najwiêkszy orczy klan, a zarazem pierwszy na który natrafi³a ludzkoœæ. Waaagh z tego klanu niejednokrotnie sprawiali powa¿ne problemy dla ludzi."]
             }
         ]
+    },
+    "advertisement":{
+        "header":"Biuro coworkingowe dla ciebie!", 
+        "content":"Niezwyk³e œrodowisko biurowe w centrum Warszawy - blisko 500m2 urz¹dzonej powierzchni biurowej do wynajêcia dla ka¿dego, kto potrzebuje miejsca do pracy i spotkañ w elastycznym, kreatywnym i profesjonalnym œrodowisku.",
+        "ending":"Wybierz us³ugi dla siebie!"
     }
 }

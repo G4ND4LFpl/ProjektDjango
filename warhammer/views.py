@@ -8,12 +8,9 @@ import json
 
 def index(request):
     assert isinstance(request, HttpRequest)
-    print('debug: test 1/3')
     context = {}
 
     if request.method=='GET':
-        print('debug: test 2/3')
-
         if request.GET.get('selector'):
             lang = request.GET['selector']
             context = open_json(lang+".json")
