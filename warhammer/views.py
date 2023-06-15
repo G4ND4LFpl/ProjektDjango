@@ -15,7 +15,7 @@ def index(request):
             lang = request.GET['selector']
             context = open_json(lang+".json")
         else:
-            context = open_json("en.json")
+            context = open_json("pl.json")
 
     return render(request,'index.html',context)
 

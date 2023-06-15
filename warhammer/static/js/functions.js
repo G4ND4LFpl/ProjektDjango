@@ -7,7 +7,7 @@ function onload()
         var temp = parts[i].split("=");
 
         if (temp[0] != "") $_GET[decodeURIComponent(temp[0])] = decodeURIComponent(temp[1]);
-        else $_GET["selector"] = "en";
+        else $_GET["selector"] = "pl";
     }
 
     let selector = document.getElementById("lang_selector");
