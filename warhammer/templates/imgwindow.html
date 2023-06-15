@@ -1,0 +1,23 @@
+{% block content %}
+
+{% load staticfiles %}
+
+<div class="container-fluid" id="window">
+<div class="row">
+    <div class="col window">
+        <div class="row topbar">
+            <div class="col-10 text-center">
+                <h2 id="image_name">null</h2>
+            </div>
+            <div class="col-2">
+                <div class="close ms-auto fit-content" onclick="closeimg()">X</div>
+            </div>
+        </div>
+        <div class="row">
+            <img class="imagefull mx-auto my-2" id="imagefull" src="#" alt="#">
+        </div>
+    </div>
+</div>
+</div>
+
+{% endblock %}

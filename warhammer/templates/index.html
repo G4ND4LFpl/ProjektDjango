@@ -38,7 +38,7 @@
             <div class="row mt-3">
                 <div class="ms-auto fit-content">
                     <form name="form" id="lang_form" method="get">
-                        <img class ="icon2" src="{% static 'img/lang_icon.png'%}">
+                        <img class ="icon2" src="{% static 'img/lang_icon.png'%}" alt="language symbol">
                         <select class="d-none" name="selector" id="lang_selector" onchange="changeLang()">
                             <option value='pl'>Polski</option>
                             <option value='en'>English</option>
@@ -87,7 +87,7 @@
                         <a class="more px-3 py-1 m-4 m-xl-0 text-center nonedec" href="">{{read_more}}</a>
                     </div>
                     <div class="col-12 col-lg-8 col-xl-4">
-                        <img src="{% static 'img/space_marine.jpg' %}" title="Kosmiczny marine" alt="space marine picture art" onclick="openimg(this)">
+                        <img src="{% static 'img/space_marine_min.jpg' %}" title="Kosmiczny marine" alt="space marine picture art" onclick="openimg(this)">
                         <a href="https://warhammer40k.fandom.com/wiki/Space_Marines" class="linkstyle" target="_blank">{{img_source}}</a>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                         <a class="more px-3 py-1 m-4 m-xl-0 text-center nonedec" href="">{{read_more}}</a>
                     </div>
                     <div class="col-12 col-lg-8 col-xl-4">
-                        <img src="{% static 'img/ork.jpg' %}" title="Ork" alt="ork battlefield picture art" onclick="openimg(this)">
+                        <img src="{% static 'img/ork_min.jpg' %}" title="Ork" alt="ork battlefield picture art" onclick="openimg(this)">
                         <a href="https://pl.pinterest.com/pin/556968678890083476/" class="linkstyle" target="_blank">{{img_source}}</a>
                     </div>
                 </div>
@@ -139,5 +139,7 @@
         </div>
     </div>
     </div> <!-- /Strona -->
+
+    {% include 'imgwindow.html' %}
 </body>
 </html>

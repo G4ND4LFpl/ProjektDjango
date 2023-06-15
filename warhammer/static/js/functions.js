@@ -19,3 +19,22 @@ function changeLang()
     var from = document.getElementById("lang_form");
     from.submit();
 }
+function openimg(img_info)
+{
+    if (screen.width >= 576)
+    {
+        let window = document.getElementById("window");
+        window.style = "display: block;";
+    
+        let image_name = document.getElementById("image_name");
+        image_name.innerHTML = img_info.title;
+    
+        let image = document.getElementById("imagefull");
+        image.src = img_info.src.replace("_min","");
+        image.alt = img_info.alt;
+    }
+}
+function closeimg()
+{
+    document.getElementById("window").style = "display: none;";
+}
