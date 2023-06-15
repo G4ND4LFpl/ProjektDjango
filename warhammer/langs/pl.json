@@ -1,61 +1,61 @@
 {
     "fractions":"Frakcje",
-    "fractions_items":["Chaos","Drenai","Federacja ludzkoœci","Kosmiczni marines","Mroczni eldarzy","Nekroni","Orkowie"],
+    "fractions_items":["Chaos","Drenai","Federacja ludzkoÅ›ci","Kosmiczni marines","Mroczni eldarzy","Nekroni","Orkowie"],
     "characters":"Postacie",
     "characters_items":["Bogowie chaosu","Horus","Imperator","Tyrion"],
     "vehicles":"Pojazdy",
-    "vehicles_items":["Czo³g H-5", "Gniew", "Rycerz", "Puszka bojowa", "Tytan"],
-    "worlds":"Œwiaty",
+    "vehicles_items":["CzoÅ‚g H-5", "Gniew", "Rycerz", "Puszka bojowa", "Tytan"],
+    "worlds":"Åšwiaty",
     "worlds_items":["Alfa Centauri", "Iron Glise", "Wolf III", "Ziemia"],
     "about_header":"Czym jest warhammer 10k?",
     "about_1":"Jest to wariacja znanego uniwersum ",
-    "about_2":". Pewne aspekty zosta³y w nim zmienione, jednak zachowuje ono klimat swego pierwowzoru.",
-    "about_3":"G³ównym elementem jest ludzkoœc, która próbuje wywalczyæ dla siebie miejsce w niebezpiecznej galaktyce pe³nej demonów, z³owrogich kosmitów i pradawnych technologii. W przeciwieñstwie jednak do Warhammer'a 40k imperator nie przewodzi ludzkoœci i jest jedynie przesz³oœci¹ poprzednich mileniów, a jego zakony kosmicznych marins s¹ ostatnimi istniej¹cymi symbolami jego wizji. Natomiast teraz ludzkoœæ jest kierowana przez skorumpowan¹ republikê w której liczne frakcje tocz¹ wewnêtrzne spory o wp³ywy.",
+    "about_2":". Pewne aspekty zostaÅ‚y w nim zmienione, jednak zachowuje ono klimat swego pierwowzoru.",
+    "about_3":"GÅ‚Ã³wnym elementem jest ludzkoÅ›c, ktÃ³ra prÃ³buje wywalczyÄ‡ dla siebie miejsce w niebezpiecznej galaktyce peÅ‚nej demonÃ³w, zÅ‚owrogich kosmitÃ³w i pradawnych technologii. W przeciwieÅ„stwie jednak do Warhammer'a 40k imperator nie przewodzi ludzkoÅ›ci i jest jedynie przeszÅ‚oÅ›ciÄ… poprzednich mileniÃ³w, a jego zakony kosmicznych marins sÄ… ostatnimi istniejÄ…cymi symbolami jego wizji. Natomiast teraz ludzkoÅ›Ä‡ jest kierowana przez skorumpowanÄ… republikÄ™ w ktÃ³rej liczne frakcje toczÄ… wewnÄ™trzne spory o wpÅ‚ywy.",
     "link_warhammer40k":"Warhammer'a 40k",
-    "timeline_header":"Oœ czasu",
+    "timeline_header":"OÅ› czasu",
     "timeline":[
-        {"year":"10 200", "event":"Tyranidzi atakuj¹ pierwszy œwiat ludzi."},
-        {"year":"8 390", "event":"Ostatni z lorów chaosu ucieka."},
-        {"year":"8 330", "event":"Horus przeprowadza 2 inwazjê na Terrê."},
+        {"year":"10 200", "event":"Tyranidzi atakujÄ… pierwszy Å›wiat ludzi."},
+        {"year":"8 390", "event":"Ostatni z lorÃ³w chaosu ucieka."},
+        {"year":"8 330", "event":"Horus przeprowadza 2 inwazjÄ™ na TerrÄ™."},
         {"year":"8 210", "event":"Herezja Horusa."},
-        {"year":"5 100", "event":"Imperator powo³uje zakony kosmicznych marines."},
-        {"year":"4 800", "event":"Imperator jednoczy ludzkoœæ."}
+        {"year":"5 100", "event":"Imperator powoÅ‚uje zakony kosmicznych marines."},
+        {"year":"4 800", "event":"Imperator jednoczy ludzkoÅ›Ä‡."}
     ],
-    "new_articles":"Nowe Artyku³y",
-    "read_more":"Kliknij, aby czytaæ  wiêcej",
-    "img_source":"Ÿród³o",
+    "new_articles":"Nowe ArtykuÅ‚y",
+    "read_more":"Kliknij, aby czytaÄ‡  wiÄ™cej",
+    "img_source":"ÅºrÃ³dÅ‚o",
     "article1":{
         "title":"Kosmiczni marines",
-        "text":["Jest to formacja militarna powo³ana przez imperatora ludzkoœci w 6 milenium naszej ery. S¹ to genetycznie modyfikowani super ¿o³nierze uzbrojeni w silne blastery oraz wyposarzeni w potê¿ny pancerz wspomagany. Zostali stworzeniu jako specjalna si³a uderzeniowa i szybko stali siê symbolem potêgi imperatora."],
+        "text":["Jest to formacja militarna powoÅ‚ana przez imperatora ludzkoÅ›ci w 6 milenium naszej ery. SÄ… to genetycznie modyfikowani super Å¼oÅ‚nierze uzbrojeni w silne blastery oraz wyposarzeni w potÄ™Å¼ny pancerz wspomagany. Zostali stworzeniu jako specjalna siÅ‚a uderzeniowa i szybko stali siÄ™ symbolem potÄ™gi imperatora."],
         "sections":[{
             "title":"Powstanie",
             "text":[
-                "Pierwotnie imperator powo³a³ 9 zakonów kosmicznych marines, na których czele stali ojcowie zakonów. Byli to nadludzie, prawdziwy cud genetyczny osi¹gniêty przez naukowców pod œcis³¹ kontrol¹ imperatora i wiedza o tym jak zostali stworzeni ju¿ przepad³a podczas wojny niebios prawie dwa tysi¹ce lat temu.",
-                "Ojcowie zakonów w przeciwieñstwie do zwyk³ych marines oprócz jeszcze wiêkszej si³y, witrzyma³oœci i zrêcznoœci mogli korzystaæ z mocy psionicznych. Ich umys³y równie¿ zosta³y ulepszone pozwalaj¹c im na analizowanie sytuacji wielkrotnie szybciej ni¿ normalni ludzie.",
-                "Ka¿dy z 9 zakonów by³ nieco inny, jednak wszystkie s³u¿y³y imperatorowi w wielkiej krucjacie ludzkoœci."
+                "Pierwotnie imperator powoÅ‚aÅ‚ 9 zakonÃ³w kosmicznych marines, na ktÃ³rych czele stali ojcowie zakonÃ³w. Byli to nadludzie, prawdziwy cud genetyczny osiÄ…gniÄ™ty przez naukowcÃ³w pod Å›cisÅ‚Ä… kontrolÄ… imperatora i wiedza o tym jak zostali stworzeni juÅ¼ przepadÅ‚a podczas wojny niebios prawie dwa tysiÄ…ce lat temu.",
+                "Ojcowie zakonÃ³w w przeciwieÅ„stwie do zwykÅ‚ych marines oprÃ³cz jeszcze wiÄ™kszej siÅ‚y, witrzymaÅ‚oÅ›ci i zrÄ™cznoÅ›ci mogli korzystaÄ‡ z mocy psionicznych. Ich umysÅ‚y rÃ³wnieÅ¼ zostaÅ‚y ulepszone pozwalajÄ…c im na analizowanie sytuacji wielkrotnie szybciej niÅ¼ normalni ludzie.",
+                "KaÅ¼dy z 9 zakonÃ³w byÅ‚ nieco inny, jednak wszystkie sÅ‚uÅ¼yÅ‚y imperatorowi w wielkiej krucjacie ludzkoÅ›ci."
             ]
         }]
     },
     "article2":{
         "title":"Orkowie",
         "text":[
-            "Orkowie s¹ ras¹ kosmitów, która od zawsze by³a zmor¹ ludzkoœci. Mimo stosunkowo s³abej technologii ta wojownicza frakcja dziêki swej liczebnoœci oraz ca³kowitemu oddani jednemu celowi jakim jest wojna stanowi niebezpieczn¹ si³ê i zjednoczona by³aby najsilniejsz¹ frakcjê w tej czêœci galaktyki.",
-            "Dla wiêkszoœci orków jedynym celem istnienia jest wojna, st¹d frakcja ta prowadzi niezliczone wojny z praktycznie wszystkimi frakcjami w tej czêœci drogi mlecznej. Jednak wrogiem z którym orkowie walcz¹ najczêœciej s¹ inni orkowie."
+            "Orkowie sÄ… rasÄ… kosmitÃ³w, ktÃ³ra od zawsze byÅ‚a zmorÄ… ludzkoÅ›ci. Mimo stosunkowo sÅ‚abej technologii ta wojownicza frakcja dziÄ™ki swej liczebnoÅ›ci oraz caÅ‚kowitemu oddani jednemu celowi jakim jest wojna stanowi niebezpiecznÄ… siÅ‚Ä™ i zjednoczona byÅ‚aby najsilniejszÄ… frakcjÄ™ w tej czÄ™Å›ci galaktyki.",
+            "Dla wiÄ™kszoÅ›ci orkÃ³w jedynym celem istnienia jest wojna, stÄ…d frakcja ta prowadzi niezliczone wojny z praktycznie wszystkimi frakcjami w tej czÄ™Å›ci drogi mlecznej. Jednak wrogiem z ktÃ³rym orkowie walczÄ… najczÄ™Å›ciej sÄ… inni orkowie."
         ],
         "sections":[
             {
             "title":"Orcze klany",
-            "text":["Orkowie s¹ podzieleni na 12 klanów, które zazwyczaj zwajemnie siê zwalczaj¹. Jednak same klany nie s¹ wewnêtrznie zjednoczone i sk³adaj¹ siê z setek orczych grup zwanych watachami. Na czele ka¿dej z grup stoi lokalny herszt, najsilniejszy ork. Hersztowie którzy podporz¹dkowali sobie inne watachy i zjadnoczyli znaczn¹ czêœæ swego klanu s¹ nazywani Waaagh."]
+            "text":["Orkowie sÄ… podzieleni na 12 klanÃ³w, ktÃ³re zazwyczaj zwajemnie siÄ™ zwalczajÄ…. Jednak same klany nie sÄ… wewnÄ™trznie zjednoczone i skÅ‚adajÄ… siÄ™ z setek orczych grup zwanych watachami. Na czele kaÅ¼dej z grup stoi lokalny herszt, najsilniejszy ork. Hersztowie ktÃ³rzy podporzÄ…dkowali sobie inne watachy i zjadnoczyli znacznÄ… czÄ™Å›Ä‡ swego klanu sÄ… nazywani Waaagh."]
             },
             {
                 "title":"Klan wojennego topora",
-                "text":["Jest to najwiêkszy orczy klan, a zarazem pierwszy na który natrafi³a ludzkoœæ. Waaagh z tego klanu niejednokrotnie sprawiali powa¿ne problemy dla ludzi."]
+                "text":["Jest to najwiÄ™kszy orczy klan, a zarazem pierwszy na ktÃ³ry natrafiÅ‚a ludzkoÅ›Ä‡. Waaagh z tego klanu niejednokrotnie sprawiali powaÅ¼ne problemy dla ludzi."]
             }
         ]
     },
     "advertisement":{
         "header":"Biuro coworkingowe dla ciebie!", 
-        "content":"Niezwyk³e œrodowisko biurowe w centrum Warszawy - blisko 500m2 urz¹dzonej powierzchni biurowej do wynajêcia dla ka¿dego, kto potrzebuje miejsca do pracy i spotkañ w elastycznym, kreatywnym i profesjonalnym œrodowisku.",
-        "ending":"Wybierz us³ugi dla siebie!"
+        "content":"NiezwykÅ‚e Å›rodowisko biurowe w centrum Warszawy - blisko 500m2 urzÄ…dzonej powierzchni biurowej do wynajÄ™cia dla kaÅ¼dego, kto potrzebuje miejsca do pracy i spotkaÅ„ w elastycznym, kreatywnym i profesjonalnym Å›rodowisku.",
+        "ending":"Wybierz usÅ‚ugi dla siebie!"
     }
 }

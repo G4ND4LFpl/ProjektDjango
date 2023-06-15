@@ -1,55 +1,55 @@
 {
     "fractions":"Fracciones",
-    "fractions_items":["Chaos","Drenai","FederaciÛn humana","Marines espaciales","Eldars oscuros","Necrones","Orkos"],
+    "fractions_items":["Chaos","Drenai","Federaci√≥n humana","Marines espaciales","Eldars oscuros","Necrones","Orkos"],
     "characters":"Caracteres",
     "characters_items":["Dioses del chaos","Horus","Emperador","Tyrion"],
-    "vehicles":"VehÌculos",
-    "vehicles_items":["H-5 tanque", "Ira", "Caballero", "Lata de batalla", "Tit·n"],
+    "vehicles":"Veh√≠culos",
+    "vehicles_items":["H-5 tanque", "Ira", "Caballero", "Lata de batalla", "Tit√°n"],
     "worlds":"Mundos",
     "worlds_items":["Alfa Centauri", "Iron Glise", "Wolf III", "Tierra"],
-    "about_header":"?QuÈ es warhammer 10k?",
-    "about_1":"Es una variaciÛn del universo conocido de",
-    "about_2":". En Èl se han modificado algunos aspectos, pero conserva el clima de su original.",
-    "about_3":"El aspecto principal de este universo es la humanidad, que est· tratando de luchar por su lugar en una galaxia peligrosa llena de demonios, extraterrestres siniestros y tecnologÌas antiguas. Sin embargo, a diferencia de Warhammer 40k, el Emperador no lidera a la humanidad y es simplemente un pasado del milenio anterior, y sus Ûrdenes de marines espaciales son los ˙ltimos sÌmbolos que quedan de su visiÛn. Sin embargo, ahora la humanidad est· dirigida por una rep˙blica corrupta en la que numerosas facciones tienen disputas internas por la influencia.",
+    "about_header":"?Qu√© es warhammer 10k?",
+    "about_1":"Es una variaci√≥n del universo conocido de",
+    "about_2":". En √©l se han modificado algunos aspectos, pero conserva el clima de su original.",
+    "about_3":"El aspecto principal de este universo es la humanidad, que est√° tratando de luchar por su lugar en una galaxia peligrosa llena de demonios, extraterrestres siniestros y tecnolog√≠as antiguas. Sin embargo, a diferencia de Warhammer 40k, el Emperador no lidera a la humanidad y es simplemente un pasado del milenio anterior, y sus √≥rdenes de marines espaciales son los √∫ltimos s√≠mbolos que quedan de su visi√≥n. Sin embargo, ahora la humanidad est√° dirigida por una rep√∫blica corrupta en la que numerosas facciones tienen disputas internas por la influencia.",
     "link_warhammer40k":"Warhammer 40k",
-    "timeline_header":"CronologÌa",
+    "timeline_header":"Cronolog√≠a",
     "timeline":[
-        {"year":"10,200", "event":"Los tir·nidos atacan el primer mundo humano."},
-        {"year":"8 390", "event":"El ˙ltimo de los lores del caos escapa."},
+        {"year":"10,200", "event":"Los tir√°nidos atacan el primer mundo humano."},
+        {"year":"8 390", "event":"El √∫ltimo de los lores del caos escapa."},
         {"year":"8 330", "event":"Horus lanza 2 invasiones en Terra."},
-        {"year":"8 210", "event":"HerejÌa de Horus."},
-        {"year":"5100", "event":"El emperador establece Ûrdenes de marines espaciales."},
+        {"year":"8 210", "event":"Herej√≠a de Horus."},
+        {"year":"5100", "event":"El emperador establece √≥rdenes de marines espaciales."},
         {"year":"4800", "event":"El Emperador une a la humanidad."}
     ],
     "new_articles":"Articulos nuevos",
-    "read_more":"Haga clic para leer m·s",
+    "read_more":"Haga clic para leer m√°s",
     "img_source":"fuente",
     "article1":{
         "title":"Marines espaciales",
-        "text":["Esta es una formaciÛn militar establecida por el emperador de la humanidad en el sexto milenio d.C. Son supersoldados genÈticamente modificados armados con poderosos bl·sters y equipados con poderosas servoarmaduras. Fueron creados como una fuerza de ataque especial y r·pidamente se convirtieron en un sÌmbolo del poder del emperador."],
+        "text":["Esta es una formaci√≥n militar establecida por el emperador de la humanidad en el sexto milenio d.C. Son supersoldados gen√©ticamente modificados armados con poderosos bl√°sters y equipados con poderosas servoarmaduras. Fueron creados como una fuerza de ataque especial y r√°pidamente se convirtieron en un s√≠mbolo del poder del emperador."],
         "sections":[{
             "title":"Origen",
             "text":[
-                "Originalmente, el Emperador fundÛ 9 Ûrdenes de marines espaciales, encabezadas por los Padres de las ”rdenes. Eran superhombres, un verdadero milagro genÈtico logrado por cientÌficos bajo el estricto control del Emperador, y el conocimiento de cÛmo fueron creados ya se habÌa perdido en la guerra de los cielos hace casi dos mil a?os.",
-                "Los padres de las Ûrdenes, a diferencia de los marines ordinarios, podÌan usar poderes psiÛnicos adem·s de una fuerza, resistencia y destreza a˙n mayores. Sus mentes tambiÈn se mejoraron, permitiÈndoles analizar situaciones muchas veces m·s r·pido que las personas normales.",
-                "Cada una de las 9 Ûrdenes era ligeramente diferente, pero todas sirvieron al emperador en la gran cruzada de la humanidad."
+                "Originalmente, el Emperador fund√≥ 9 √≥rdenes de marines espaciales, encabezadas por los Padres de las √ìrdenes. Eran superhombres, un verdadero milagro gen√©tico logrado por cient√≠ficos bajo el estricto control del Emperador, y el conocimiento de c√≥mo fueron creados ya se hab√≠a perdido en la guerra de los cielos hace casi dos mil a?os.",
+                "Los padres de las √≥rdenes, a diferencia de los marines ordinarios, pod√≠an usar poderes psi√≥nicos adem√°s de una fuerza, resistencia y destreza a√∫n mayores. Sus mentes tambi√©n se mejoraron, permiti√©ndoles analizar situaciones muchas veces m√°s r√°pido que las personas normales.",
+                "Cada una de las 9 √≥rdenes era ligeramente diferente, pero todas sirvieron al emperador en la gran cruzada de la humanidad."
             ]
         }]
     },
     "article2":{
         "title":"Orkos",
         "text":[
-            "Los orkos son una raza alienÌgena que siempre ha sido la ruina de la humanidad. A pesar de su tecnologÌa relativamente dÈbil, esta facciÛn guerrera, gracias a su n˙mero y dedicaciÛn total a un objetivo: la guerra, es una fuerza peligrosa y unida serÌa la facciÛn m·s fuerte en esta parte de la galaxia.",
-            "Para la mayorÌa de los orkos, el ˙nico propÛsito de la existencia es la guerra, por lo que esta facciÛn libra innumerables guerras con pr·cticamente todas las facciones en esta parte de la VÌa L·ctea. Sin embargo, el enemigo contra el que luchan los orkos con mayor frecuencia son otros orkos."
+            "Los orkos son una raza alien√≠gena que siempre ha sido la ruina de la humanidad. A pesar de su tecnolog√≠a relativamente d√©bil, esta facci√≥n guerrera, gracias a su n√∫mero y dedicaci√≥n total a un objetivo: la guerra, es una fuerza peligrosa y unida ser√≠a la facci√≥n m√°s fuerte en esta parte de la galaxia.",
+            "Para la mayor√≠a de los orkos, el √∫nico prop√≥sito de la existencia es la guerra, por lo que esta facci√≥n libra innumerables guerras con pr√°cticamente todas las facciones en esta parte de la V√≠a L√°ctea. Sin embargo, el enemigo contra el que luchan los orkos con mayor frecuencia son otros orkos."
         ],
         "sections":[
             {
             "title":"Clanes orkos",
-            "text":["Los orcos se dividen en 12 clanes, que normalmente luchan entre sÌ. Sin embargo, los clanes en sÌ no est·n unidos y consisten en cientos de grupos de orkos llamados manadas. Cada grupo est· dirigido por un jefe local, el orko m·s fuerte. otras manadas subyugadas y unidas gran parte de su clan se llaman Waaagh."]
+            "text":["Los orcos se dividen en 12 clanes, que normalmente luchan entre s√≠. Sin embargo, los clanes en s√≠ no est√°n unidos y consisten en cientos de grupos de orkos llamados manadas. Cada grupo est√° dirigido por un jefe local, el orko m√°s fuerte. otras manadas subyugadas y unidas gran parte de su clan se llaman Waaagh."]
             },
             {
                 "title":"Clan del hacha de guerra",
-                "text":["Estos son el clan orko m·s grande y el primero en ser encontrado por la humanidad. Los Waaagh de este clan a menudo han causado serios problemas a los humanos."]
+                "text":["Estos son el clan orko m√°s grande y el primero en ser encontrado por la humanidad. Los Waaagh de este clan a menudo han causado serios problemas a los humanos."]
             }
         ]
     },

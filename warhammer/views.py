@@ -21,7 +21,7 @@ def index(request):
 
 def open_json(filename):
     filename = BASE_DIR + "\\warhammer\\langs\\" + filename
-    f = open(filename)
+    f = open(filename, encoding="UTF-8")
     data = json.load(f)
     f.close()
     return data
