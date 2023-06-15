@@ -20,80 +20,7 @@
     <script src="{% static 'js/bootstrap.js' %}" ></script> -->
     <script src="{% static 'js/bootstrap.bundle.js' %}"></script>
         
-    <!-- Nagłówek -->
-    <header>
-        <div class="container my-3">
-        <div class="row">
-            <div class="col-xxl-4 col-md-3 col-sm-2 d-none d-sm-block">
-                <div class="icon"><img class ="icon" src="{% static 'img/sword_icon_left.png' %}" style="float: right;" alt=""></div>
-            </div>
-            <div class="col-xxl-4 col-md-6 col-sm-8">
-                <div class="titlebox">
-                    <h1 class="fw-bold luminari">Warhammer 10k</h1>
-                </div>
-            </div>
-            <div class="col-xxl-4 col-md-3 col-sm-2 d-none d-sm-block">
-                <div class="icon"><img class ="icon" src="{% static 'img/sword_icon_right.png' %}" alt=""></div>
-            </div>
-        </div>
-        </div>
-    </header>
-
-    <!-- Nawigacja -->
-    <nav>
-        <div class="container-fluid">
-        <div class="row text-center py-1">
-            <div class="col-6 col-sm-3">
-                <div class="dropdown menu-panel py-1">
-                    <h3 class="luminari m-0 text-light" data-bs-toggle="dropdown" id="fractions">Frakcje</h3>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item text-center" href="#" id="fraction1">Chaos</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="fraction2">Drenai</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="fraction3">Federacja ludzkości</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="fraction4">Kosmiczni marines</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="fraction5">Mroczni eldarzy</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="fraction6">Nekroni</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="fraction7">Orkowie</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-6 col-sm-3">
-                <div class="dropdown menu-panel py-1">
-                    <h3 class="luminari m-0 text-light" data-bs-toggle="dropdown" id="characters">Postacie</h3>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item text-center" href="#" id="character1">Bogowie chaosu</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="character2">Horus</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="character3">Imperator</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="character4">Tyrion</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-6 col-sm-3">
-                <div class="dropdown menu-panel py-1">
-                    <h3 class="luminari m-0 text-light" data-bs-toggle="dropdown" id="vehicles">Pojazdy</h3>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item text-center" href="#" id="vehicle1">Czołg H-5</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="vehicle2">Gniew</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="vehicle3">Rycerz</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="vehicle4">Puszka bojowa</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="vehicle5">Tytan</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-6 col-sm-3">
-                <div class="dropdown menu-panel py-1">
-                    <h3 class="luminari m-0 text-light" data-bs-toggle="dropdown" id="worlds">Światy</h3>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item text-center" href="#" id="world1">Alfa Centauri</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="world2">Iron Glise</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="world4">Wolf III</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="world3">Ziemia</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        </div>
-    </nav>
+    {% include 'nav.html' %}
 
     <!-- Strona -->
     <div class="container-fluid">
@@ -157,7 +84,7 @@
                 <h2 class="text-center section-title luminari">Nowe artykuły</h2>
             </div>
             <!-- Kosmiczni marines -->
-            <article class="mb-5">
+            <article class="mb-lg-5">
                 <div class="row">
                     <h3 class="fw-bold luminari">Kosmiczni marines</h3>
                     <p>Jest to formacja militarna powołana przez imperatora ludzkości w 6 milenium naszej ery. Są to genetycznie modyfikowani super żołnierze uzbrojeni w 
@@ -180,6 +107,10 @@
                     </div>
                 </div>
             </article>
+            <!-- Reklama -->
+            <div class="row d-block d-lg-none">
+                {% include 'add.html' %}
+            </div>
             <!-- Orkowie -->
             <article class="mb-5">
                 <div class="row">
@@ -208,15 +139,21 @@
                 </div>
             </article>
             </section>
+
+            <!-- Stopka -->
+            <div class="row">
+                <footer class="ms-auto fit-content">
+                    <p>Autor: Piotr Majewski</p>
+                </footer>
+            </div>
         </div>
         <!-- Okno boczne -->
         <div class="col-3 d-none d-sm-block">
-            <div class="d-none d-lg-block m-4 p-2 light-bg">
-                reklama
+            <div class="d-none d-lg-block">
+                {% include 'add.html' %}
             </div>
         </div>
     </div>
-
     </div> <!-- /Strona -->
 </body>
 </html>

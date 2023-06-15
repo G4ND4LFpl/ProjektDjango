@@ -133,19 +133,6 @@ img
     background-color: brown;
 }
 
-/* h3 */
-h3 
-{
-    font-size: calc(1.275rem + 0.4vw);
-}
-@media (min-width: 1200px) 
-{
-    h3
-    {
-        font-size: 1.6rem;
-    }
-}
-
 /* Sidebar */
 .underline
 {
@@ -161,4 +148,39 @@ ul
 p, h5
 {
     color: black;
+}
+
+/* Add */
+.add-div
+{
+    --biurco_green: #83e333;
+
+    background-color: black;
+    border: white solid 3px;
+    color: var(--biurco_green);
+}
+.add-div p
+{
+    color: white;
+    font-size: 1.1rem;
+
+    border-left: var(--biurco_green) solid 0.5rem;
+    padding-left: 1rem;
+}
+@media (max-width: 1199px) 
+{
+    .scale-down
+    {
+        font-size: calc(1.275rem + 0.3vw);
+    }
+    .add-div p
+    {
+        font-size: 1.05rem;
+    }
+}
+
+/* Footer */
+footer p
+{
+    font-style: italic;
 }
