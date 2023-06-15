@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
 </head>
 
-<body data-bs-theme="dark">
+<body data-bs-theme="dark" onload="onload()">
     <!-- <script 
         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
@@ -19,6 +19,7 @@
     </script> 
     <script src="{% static 'js/bootstrap.js' %}" ></script> -->
     <script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+    <script src="{% static 'js/functions.js' %}"></script>
         
     {% include 'nav.html' %}
 
@@ -29,59 +30,41 @@
         <!-- Okno boczne -->
         <div class="col-3 d-none d-sm-block">
             <div class="d-none d-lg-block m-4 p-2 light-bg">
-                <h3 class = "text-center underline">Oś czasu</h3>
-                <ul>
-                    <li><h5>10 200</h5> <p>Tyranidzi atakują pierwszy świat ludzi.</p></li>
-                    <li><h5>8 390</h5> <p>Ostatni z lorów chaosu ucieka.</p></li>
-                    <li><h5>8 330</h5> <p>Horus przeprowadza 2 inwazję na Terrę.</p></li>
-                    <li><h5>8 210</h5> <p>Herezja Horusa.</p></li>
-                    <li><h5>5 100</h5> <p>Imperator powołuje zakony kosmicznych marines.</p></li>
-                    <li><h5>4 800</h5> <p>Imperator jednoczy ludzkość.</p></li>
-                </ul>
+                {% include 'timeline.html' %}
             </div>
         </div>
         <!-- Środek -->
         <div class="col-12 col-sm-6 light-bg">
             <div class="row mt-3">
                 <div class="ms-auto fit-content">
-                    <!--<form id="lang_selection_form" action="script.php" method="get"> -->
-                    <img class ="icon2" src="{% static 'img/lang_icon.png'%}">
-                    <select id='lang_selection_form' onchange="changeLang()">
-                        <option value='1'>Polski</option>
-                        <option value='2'>English</option>
-                        <option value='3'>Español</option>
-                    </select>
+                    <form name="form" id="lang_form" method="get">
+                        <img class ="icon2" src="{% static 'img/lang_icon.png'%}">
+                        <select class="d-none" name="selector" id="lang_selector" onchange="changeLang()">
+                            <option value='pl'>Polski</option>
+                            <option value='en'>English</option>
+                            <option value='es'>Español</option>
+                        </select>
+                    </form>
                 </div>
             </div>
             <!--  Czym jest Warhammer 10k? -->
             <div class="row mt-3">
                 <section>
-                    <h3 class="fw-bold luminari" id="about-header">Czym jest warhammer 10k?</h3>
-                    <p id="about-p1">Jest to wariacja znanego uniwersum <a href="https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki" class="linkstyle" target="_blank">Warhammer'a 40k</a>. Pewne aspekty zostały w 
-                    nim zmienione, jednak zachowuje ono klimat swego pierwowzoru.</p>
-                    <p class="d-none d-lg-block" id="about-p2">Głównym elementem jest ludzkośc,  która próbuje wywalczyć dla siebie miejsce w niebezpiecznej galaktyce pełnej demonów, złowrogich kosmitów i pradawnych technologii. 
-                    W przeciwieństwie jednak do Warhammer'a 40k imperator nie przewodzi ludzkości i jest jedynie przeszłością poprzednich mileniów, a jego zakony kosmicznych marins są ostatnimi 
-                    istniejącymi symbolami jego wizji. Natomiast teraz ludzkość jest kierowana przez skorumpowaną republikę w której liczne frakcje toczą wewnętrzne spory o wpływy.</p>
+                    <h3 class="fw-bold luminari" id="about-header">{{about_header}}</h3>
+                    <p id="about-p1">{{about_1}} <a href="https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki" class="linkstyle" target="_blank">{{link_warhammer40k}}</a> {{about_2}} </p>
+                    <p class="d-none d-lg-block" id="about-p2">{{about_3}}</p>
                 </section>
             </div>
             <!--  Oś czasu -->
             <div class="row d-block d-lg-none">
                 <div class="col">  
-                    <h3 class = "fw-bold luminari">Oś czasu</h3>
-                    <ul>
-                        <li><h5>10 200</h5> <p>Tyranidzi atakują pierwszy świat ludzi.</p></li>
-                        <li><h5>8 390</h5> <p>Ostatni z lorów chaosu ucieka.</p></li>
-                        <li><h5>8 330</h5> <p>Horus przeprowadza 2 inwazję na Terrę.</p></li>
-                        <li><h5>8 210</h5> <p>Herezja Horusa.</p></li>
-                        <li><h5>5 100</h5> <p>Imperator powołuje zakony kosmicznych marines.</p></li>
-                        <li><h5>4 800</h5> <p>Imperator jednoczy ludzkość.</p></li>
-                    </ul>
+                    {% include 'timeline.html' %}
                 </div>
             </div>
             <!-- Sekcja artykułów -->
             <section>
             <div class="row">
-                <h2 class="text-center section-title luminari">Nowe artykuły</h2>
+                <h2 class="text-center section-title luminari">{{new_articles}}</h2>
             </div>
             <!-- Kosmiczni marines -->
             <article class="mb-lg-5">
@@ -99,11 +82,11 @@
                         zostały ulepszone pozwalając im na analizowanie sytuacji wielkrotnie szybciej niż normalni ludzie.<br/>
                         Każdy z 9 zakonów był nieco inny, jednak wszystkie służyły imperatorowi w wielkiej krucjacie ludzkości.</p>
 
-                        <a class="more px-3 py-1 m-4 m-xl-0 text-center nonedec" href="">Kliknij, aby czytać  więcej</a>
+                        <a class="more px-3 py-1 m-4 m-xl-0 text-center nonedec" href="">{{read_more}}</a>
                     </div>
                     <div class="col-12 col-lg-8 col-xl-4">
                         <img src="{% static 'img/space_marine.jpg' %}" title="Kosmiczny marine" alt="space marine picture art" onclick="openimg(this)">
-                        <a href="https://warhammer40k.fandom.com/wiki/Space_Marines" class="linkstyle" target="_blank">źródło</a>
+                        <a href="https://warhammer40k.fandom.com/wiki/Space_Marines" class="linkstyle" target="_blank">{{img_source}}</a>
                     </div>
                 </div>
             </article>
@@ -130,11 +113,11 @@
                         <h4>Klan wojennego topora</h4>
                         <p>Jest to największy orczy klan, a zarazem pierwszy na który natrafiła ludzkość. Waaagh z tego klanu niejednokrotnie sprawiali poważne problemy dla ludzi.</p>
 
-                        <a class="more px-3 py-1 m-4 m-xl-0 text-center nonedec" href="">Kliknij, aby czytać  więcej</a>
+                        <a class="more px-3 py-1 m-4 m-xl-0 text-center nonedec" href="">{{read_more}}</a>
                     </div>
                     <div class="col-12 col-lg-8 col-xl-4">
                         <img src="{% static 'img/ork.jpg' %}" title="Ork" alt="ork battlefield picture art" onclick="openimg(this)">
-                        <a href="https://pl.pinterest.com/pin/556968678890083476/" class="linkstyle" target="_blank">źródło</a>
+                        <a href="https://pl.pinterest.com/pin/556968678890083476/" class="linkstyle" target="_blank">{{img_source}}</a>
                     </div>
                 </div>
             </article>

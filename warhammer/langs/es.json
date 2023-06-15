@@ -1,0 +1,56 @@
+{
+    "fractions":"Fracciones",
+    "fractions_items":["Chaos","Drenai","Federación humana","Marines espaciales","Eldars oscuros","Necrones","Orkos"],
+    "characters":"Caracteres",
+    "characters_items":["Dioses del chaos","Horus","Emperador","Tyrion"],
+    "vehicles":"Vehículos",
+    "vehicles_items":["H-5 tanque", "Ira", "Caballero", "Lata de batalla", "Titán"],
+    "worlds":"Mundos",
+    "worlds_items":["Alfa Centauri", "Iron Glise", "Wolf III", "Tierra"],
+    "about_header":"?Qué es warhammer 10k?",
+    "about_1":"Es una variación del universo conocido de",
+    "about_2":". En él se han modificado algunos aspectos, pero conserva el clima de su original.",
+    "about_3":"El aspecto principal de este universo es la humanidad, que está tratando de luchar por su lugar en una galaxia peligrosa llena de demonios, extraterrestres siniestros y tecnologías antiguas. Sin embargo, a diferencia de Warhammer 40k, el Emperador no lidera a la humanidad y es simplemente un pasado del milenio anterior, y sus órdenes de marines espaciales son los últimos símbolos que quedan de su visión. Sin embargo, ahora la humanidad está dirigida por una república corrupta en la que numerosas facciones tienen disputas internas por la influencia.",
+    "link_warhammer40k":"Warhammer 40k",
+    "timeline_header":"Cronología",
+    "timeline":[
+        {"year":"10,200", "event":"Los tiránidos atacan el primer mundo humano."},
+        {"year":"8 390", "event":"El último de los lores del caos escapa."},
+        {"year":"8 330", "event":"Horus lanza 2 invasiones en Terra."},
+        {"year":"8 210", "event":"Herejía de Horus."},
+        {"year":"5100", "event":"El emperador establece órdenes de marines espaciales."},
+        {"year":"4800", "event":"El Emperador une a la humanidad."}
+    ],
+    "new_articles":"Articulos nuevos",
+    "read_more":"Haga clic para leer más",
+    "img_source":"fuente",
+    "article1":{
+        "title":"Marines espaciales",
+        "text":["This is a military formation established by the emperor of humanity in the 6th millennium AD. They are genetically modified super soldiers armed with powerful blasters and equipped with powerful power armor. They were created as a special strike force and quickly became a symbol of the emperor's power ."],
+        "sections":[{
+            "title":"Uprising",
+            "text":[
+                "Originally, the Emperor founded 9 orders of space marines, headed by the Fathers of the Orders. They were supermen, a true genetic miracle achieved by scientists under the strict control of the Emperor, and the knowledge of how they were created had already been lost in the war of the heavens almost two thousand years ago.",
+                "The fathers of the orders, unlike ordinary marines, could use psionic powers in addition to even greater strength, stamina and dexterity. Their minds were also enhanced, allowing them to analyze situations many times faster than normal people.",
+                "Each of the 9 orders was slightly different, but all served the emperor in the great crusade of humanity."
+            ]
+        }]
+    },
+    "article2":{
+        "title":"Orkos",
+        "text":[
+            "Orcs are an alien race that has always been the bane of mankind. Despite their relatively weak technology, this warlike faction, thanks to their numbers and total dedication to one goal - war, is a dangerous force and united would be the strongest faction in this part of the galaxy.",
+            "For most orcs, the sole purpose of existence is war, and so this faction wages countless wars with virtually every faction in this part of the Milky Way. However, the enemy that orcs fight most often is other orcs."
+        ],
+        "sections":[
+            {
+            "title":"Orc Clans",
+            "text":["Orcs are divided into 12 clans, which usually fight each other. However, the clans themselves are not united and consist of hundreds of orc groups called packs. Each group is led by a local chieftain, the strongest orc. subjugated other packs and united much of their clan are called Waaagh."]
+            },
+            {
+                "title":"War Ax Clan",
+                "text":["These are the largest orc clan, and the first to be encountered by mankind. The Waaagh of this clan have often caused serious problems to humans."]
+            }
+        ]
+    }
+}

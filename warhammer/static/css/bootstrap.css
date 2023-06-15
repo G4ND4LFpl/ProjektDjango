@@ -7390,7 +7390,7 @@ textarea.form-control-lg {
 }
 
 .d-none {
-  display: none !important;
+  display: none; /*!important*/
 }
 
 .shadow {

@@ -1,6 +1,6 @@
 {% block content %}
 
-{% load staticfiles%}
+{% load staticfiles %}
 
 <!-- Nagłówek -->
 <header>
@@ -27,49 +27,41 @@
         <div class="row text-center py-1">
             <div class="col-6 col-sm-3">
                 <div class="dropdown menu-panel py-1">
-                    <h3 class="luminari m-0 text-light" data-bs-toggle="dropdown" id="fractions">Frakcje</h3>
+                    <h3 class="luminari m-0 text-light" data-bs-toggle="dropdown" id="fractions">{{fractions}}</h3>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item text-center" href="#" id="fraction1">Chaos</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="fraction2">Drenai</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="fraction3">Federacja ludzkości</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="fraction4">Kosmiczni marines</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="fraction5">Mroczni eldarzy</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="fraction6">Nekroni</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="fraction7">Orkowie</a></li>
+                        {% for fraction in fractions_items %}
+                        <li><a class="dropdown-item text-center" href="#">{{fraction}}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
             <div class="col-6 col-sm-3">
                 <div class="dropdown menu-panel py-1">
-                    <h3 class="luminari m-0 text-light" data-bs-toggle="dropdown" id="characters">Postacie</h3>
+                    <h3 class="luminari m-0 text-light" data-bs-toggle="dropdown">{{characters}}</h3>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item text-center" href="#" id="character1">Bogowie chaosu</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="character2">Horus</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="character3">Imperator</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="character4">Tyrion</a></li>
+                        {% for char in characters_items %}
+                        <li><a class="dropdown-item text-center" href="#">{{char}}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
             <div class="col-6 col-sm-3">
                 <div class="dropdown menu-panel py-1">
-                    <h3 class="luminari m-0 text-light" data-bs-toggle="dropdown" id="vehicles">Pojazdy</h3>
+                    <h3 class="luminari m-0 text-light" data-bs-toggle="dropdown">{{vehicles}}</h3>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item text-center" href="#" id="vehicle1">Czołg H-5</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="vehicle2">Gniew</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="vehicle3">Rycerz</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="vehicle4">Puszka bojowa</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="vehicle5">Tytan</a></li>
+                        {% for vehicle in vehicles_items %}
+                        <li><a class="dropdown-item text-center" href="#">{{vehicle}}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
             <div class="col-6 col-sm-3">
                 <div class="dropdown menu-panel py-1">
-                    <h3 class="luminari m-0 text-light" data-bs-toggle="dropdown" id="worlds">Światy</h3>
+                    <h3 class="luminari m-0 text-light" data-bs-toggle="dropdown">{{worlds}}</h3>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item text-center" href="#" id="world1">Alfa Centauri</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="world2">Iron Glise</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="world4">Wolf III</a></li>
-                        <li><a class="dropdown-item text-center" href="#" id="world3">Ziemia</a></li>
+                        {% for world in worlds_items %}
+                        <li><a class="dropdown-item text-center" href="#">{{world}}</a></li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
