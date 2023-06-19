@@ -1,11 +1,6 @@
 
 # Django project
 
-Aplikacja Django.
-
-## To do:
-- podświetlanie linków w nawigacji
-- dokończenie języków
-- znalezienie hostingu 
+Strona internetowa Warhammer 10k oparta na django.
 
 
