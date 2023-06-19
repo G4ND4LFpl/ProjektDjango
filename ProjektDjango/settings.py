@@ -25,7 +25,7 @@ SECRET_KEY = '9b1355cf-8d99-4037-a849-20919a4bbfbf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tnwizard.pythonanywhere.com', '127.0.0.1']
 
 # Application references
 # https://docs.djangoproject.com/en/2.1/ref/settings/#std:setting-INSTALLED_APPS
@@ -68,6 +68,9 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            'libraries':  {
+                'load_img': 'warhammer.templatetags.load_img',
+            }
         },
     },
 ]
@@ -111,5 +114,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 STATIC_URL = '/static/'
 STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['media']))
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'myapp/static'),]

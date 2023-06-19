@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404, render
 from django.http import HttpRequest
 from ProjektDjango.settings import BASE_DIR
 
@@ -20,7 +20,7 @@ def index(request):
     return render(request,'index.html',context)
 
 def open_json(filename):
-    filename = BASE_DIR + "\\warhammer\\langs\\" + filename
+    filename = BASE_DIR + "/warhammer/langs/" + filename
     f = open(filename, encoding="UTF-8")
     data = json.load(f)
     f.close()
